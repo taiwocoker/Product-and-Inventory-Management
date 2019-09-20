@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Products</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <form method="POST">
+          <div class="formdiv">
+            <h1 class="headingone">Products</h1>
+            <p id="error"></p>
+            <input type="text" name="productName" placeholder="Enter Product Name" id="productName"><br><br>
+            <input type="text" name="category" placeholder="Enter Product Category" id="category"><br><br>
+            <input type="text" name="brand" placeholder="Enter Brand Name" id="brand"><br><br>
+            <input type="number" name="quantity" placeholder="Enter Quantity" min="1" max="1000" id="quantity"><br><br>
+            <input type="text" name="price" placeholder="Enter Product Price" id="price"><br><br>
+            <button class="button add" id="addProductBtn">Add</button>
+            
+          </div>
+        </form>
+
+        <div class="tableu">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">S/N</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Category</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="productList">
+              
+            </tbody>
+          </table>
+        </div> 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "taiwo",
+      "email": "taiwo@gmail.com",
+      "password": "taiwo"
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "kenny G",
+      "email": "taiwo@gmail.com",
+      "password": "ggggg",
+      "id": 3
+    },
+    {
+      "name": "kenny G",
+      "email": "taiwofcoker@gmail.com",
+      "password": "hhhhhh",
+      "id": 4
+    },
+    {
+      "name": "kenny G",
+      "email": "taiwofcoker@gmail.com",
+      "password": "jjjjj",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "productName": "Galaxy S15",
+      "category": "Phones",
+      "brand": "Samsung",
+      "quantity": "78",
+      "price": "30,000",
+      "id": 7
+    },
+    {
+      "productName": "Iphone X",
+      "category": "Mobile",
+      "brand": "Apple",
+      "quantity": "89",
+      "price": "30,000",
+      "id": 8
+    },
+    {
+      "productName": "Iphone XMax",
+      "category": "Mobile",
+      "brand": "Moto",
+      "quantity": "90",
+      "price": "30,000",
+      "id": 9
+    },
+    {
+      "productName": "Galaxy S10",
+      "category": "Phones",
+      "brand": "Samsung",
+      "quantity": "89",
+      "price": "30,000",
+      "id": 10
+    }
+  ]
+}
